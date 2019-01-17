@@ -142,7 +142,7 @@ public class PoliceTree
     //printing the policemen with the bonus amount
     public void printbonus(PoliceNode rt,int max)
     {
-        File bon=new File("C:/Users/aboggara/Desktop/traffic/Bonus.txt");
+        File bon=new File("YourFilePath.txt");
         Queue<PoliceNode> queue = new LinkedList<PoliceNode>(); 
         try
         {
