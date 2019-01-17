@@ -14,7 +14,7 @@ public class TrafficFines
 		PoliceTree pt=new PoliceTree();
 		try
 		{
-			reader=new BufferedReader(new FileReader("C:/Users/aboggara/Desktop/traffic/input.txt"));
+			reader=new BufferedReader(new FileReader("YourInputFilePath.txt"));
 			String line=reader.readLine();
 			while(line!=null)
 			{
